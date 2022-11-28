@@ -28,7 +28,7 @@ const TodoForm = (props) => {
     <form onSubmit={submitHandler}>
       <div className=".new-todo__controls">
         <div className="new-todo__control">
-          <label>What i want to do</label>
+          <label>Hey there! What do you want to do?</label>
           <input
             type="text"
             value={enteredTitle}
